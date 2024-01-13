@@ -60,7 +60,7 @@ const doctorController = {
 
       res.json(updatedRecord);
     } catch (error) {
-      console.error('Error updating patient record:', error);
+      console.error('Error patient record:', error);
       res.status(500).json({ error: 'Internal Server Error' });
     }
   },
